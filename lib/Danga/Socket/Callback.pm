@@ -1,8 +1,3 @@
-# $Id: /mirror/perl/Danga-Socket-Callback/trunk/lib/Danga/Socket/Callback.pm 31630 2007-12-01T13:40:15.380189Z daisuke  $
-#
-# Copyright (c) 2007 Daisuke Maki <daisuke@endeworks.jp>
-# All rights reserved.
-
 package Danga::Socket::Callback;
 use strict;
 use warnings;
