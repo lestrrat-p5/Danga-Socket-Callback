@@ -18,7 +18,7 @@ sub new
     $self = fields::new($self) unless ref $self;
     $self->SUPER::new($args{handle});
 
-    foreach my $field qw(on_read_ready on_write_ready on_error on_signal_hup context) {
+    foreach my $field (qw(on_read_ready on_write_ready on_error on_signal_hup context)) {
         $self->{$field} = $args{$field} if $args{$field}
     }
 
