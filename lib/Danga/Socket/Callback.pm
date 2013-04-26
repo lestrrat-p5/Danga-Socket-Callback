@@ -4,7 +4,7 @@ use warnings;
 use base qw(Danga::Socket);
 use fields qw(on_read_ready on_write_ready on_error on_signal_hup context);
 
-our $VERSION = '0.01200';
+our $VERSION = '0.013';
 
 sub new
 {

@@ -53,5 +53,19 @@
       }
    },
    "release_status" : "unstable",
-   "version" : "0.01200"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/lestrrat/p5-Danga-Socket-Callback/issues"
+      },
+      "homepage" : "https://github.com/lestrrat/p5-Danga-Socket-Callback",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/lestrrat/p5-Danga-Socket-Callback.git",
+         "web" : "https://github.com/lestrrat/p5-Danga-Socket-Callback"
+      }
+   },
+   "version" : "0.013",
+   "x_contributors" : [
+      "Daisuke Maki <lestrrat+github@gmail.com>"
+   ]
 }
