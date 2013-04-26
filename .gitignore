@@ -1,0 +1,8 @@
+/XML-RSS-Liberal-*
+/.build
+/_build_params
+/Build
+!Build/
+!META.json
+extlib
+/Danga-Socket-Callback-*
